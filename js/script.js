@@ -6,5 +6,9 @@ document.querySelector(".button-container").addEventListener("click", () => {
   index = (index + 1) % themes.length;
   document.documentElement.className = themes[index];
   btn.style.marginLeft = margins[index];
-  navigator.vibrate(200)
+  vibrate();
 });
+
+function vibrate() {
+  navigator.vibrate(500);
+}
