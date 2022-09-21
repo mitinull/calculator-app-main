@@ -6,9 +6,9 @@ document.querySelector(".button-container").addEventListener("click", () => {
   index = (index + 1) % themes.length;
   document.documentElement.className = themes[index];
   btn.style.marginLeft = margins[index];
-  navigator.vibrate(200);
+  navigator.vibrate(100);
 });
 
 document.querySelectorAll("section.btns .btn").forEach((element) => {
-  element.addEventListener("click", () => vibrate(1));
+  element.addEventListener("click", () => vibrate(50));
 });
