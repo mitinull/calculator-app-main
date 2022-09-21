@@ -10,5 +10,5 @@ document.querySelector(".button-container").addEventListener("click", () => {
 });
 
 document.querySelectorAll("section.btns .btn").forEach((element) => {
-  element.addEventListener("click", () => navigator.vibrate(25));
+  element.addEventListener("touchstart", () => navigator.vibrate(25));
 });
