@@ -63,8 +63,8 @@ body {
 
 main {
   max-width: 540px;
-  margin: 25px;
-  margin-top: 40px;
+  padding: 25px;
+  margin: 40px auto 5px auto;
 }
 
 .header {
