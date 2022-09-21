@@ -9,6 +9,6 @@ document.querySelector(".button-container").addEventListener("click", () => {
   navigator.vibrate(200);
 });
 
-document.querySelectorAll("section.btns .btn").addEventListener("click", () => {
-  navigator.vibrate(200);
+document.querySelectorAll("section.btns .btn").forEach((element) => {
+  element.addEventListener("click", () => vibrate(1));
 });
