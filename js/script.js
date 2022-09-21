@@ -10,5 +10,5 @@ document.querySelector(".button-container").addEventListener("click", () => {
 });
 
 document.querySelectorAll("section.btns .btn").forEach((element) => {
-  element.addEventListener("click", () => vibrate(50));
+  element.addEventListener("click", () => navigator.vibrate(50));
 });
