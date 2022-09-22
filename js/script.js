@@ -37,7 +37,7 @@ document.querySelector(".button-container").addEventListener("click", () => {
 document.querySelectorAll("section.btns .btn").forEach((element, index) => {
   element.addEventListener("click", () => {
     navigator.vibrate(25);
-    if (after_enter && !["-", "+", "*", "/", "Enter"].includes(element.innerText)) {
+    if (after_enter && !["-", "+", "×", "/", "Enter"].includes(element.innerText)) {
       input.value = "";
     }
     input.value += keyPad[index];
