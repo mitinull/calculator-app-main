@@ -120,14 +120,25 @@ section.screen {
   background-color: var(--bg3);
   text-align: right;
   font-size: 1.3em;
-  padding: 0.7em 0.7em 0.6em;
+  padding: 0.7em 0.7em 0.55em;
   border-radius: 0.25em;
   margin-top: 30px;
-  -webkit-user-select: text; /* Chrome all / Safari all */
-  -moz-user-select: text; /* Firefox all */
-  -ms-user-select: text; /* IE 10+ */
+  /* -webkit-user-select: text;
+  -moz-user-select: text; 
+  -ms-user-select: text; 
   -o-user-select: text;
-  user-select: text;
+  user-select: text; */
+}
+section.screen input {
+  background-color: transparent;
+  width: 100%;
+  text-align: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  outline: none;
+  caret-color: var(--btn2);
 }
 
 section.btns {
