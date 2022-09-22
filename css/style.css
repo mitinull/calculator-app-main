@@ -139,6 +139,7 @@ section.screen input {
   border: none;
   outline: none;
   caret-color: var(--btn2);
+  pointer-events: none;
 }
 
 section.btns {
